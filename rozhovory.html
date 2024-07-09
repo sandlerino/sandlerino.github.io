@@ -5,11 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>insights.ic</title>
     <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
-    <link rel="stylesheet" href="output.css">
-
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=News+Cycle:wght@400;700&display=swap" rel="stylesheet">
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        web: ["News Cycle", "sans-serif"],
+                    },
+                },
+            },
+        };
+    </script>
 
     
 </head>
@@ -21,8 +34,8 @@
             <div class="flex space-x-14">
                 <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
                 <a href="index.html" class="rounded-md  px-3 py-2 font-medium">Články</a>
-                <a href="rozhovory.html" class="rounded-md px-3 py-2 font-medium">Rozhovory</a>
-                <a href="o-nas.html" class="rounded-md px-3 py-2 font-medium text-blue-700">O nás</a>
+                <a href="rozhovory.html" class="rounded-md px-3 py-2 font-medium text-blue-700">Rozhovory</a>
+                <a href="o-nas.html" class="rounded-md px-3 py-2 font-medium ">O nás</a>
                 
               </div>
             <hr class="h-1 bg-blue-800">
