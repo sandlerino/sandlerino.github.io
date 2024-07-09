@@ -1,0 +1,23 @@
+{
+  "name": "ic-stranky-insights",
+  "version": "1.0.0",
+  "description": "skimo stranky IC",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tailwindcss -i ./src/input.css -o ./src/output.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sandlerino/sandlerino.github.io.git"
+  },
+  "author": "sandlerino",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sandlerino/sandlerino.github.io/issues"
+  },
+  "homepage": "https://github.com/sandlerino/sandlerino.github.io#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.4.4"
+  }
+}
