@@ -554,14 +554,54 @@ video {
   --tw-contain-style:  ;
 }
 
-.font-serif {
-  font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+.mt-20 {
+  margin-top: 5rem;
+}
+
+.block {
+  display: block;
+}
+
+.flex {
+  display: flex;
+}
+
+.columns-2 {
+  -moz-columns: 2;
+       columns: 2;
+}
+
+.columns-1 {
+  -moz-columns: 1;
+       columns: 1;
+}
+
+.content-center {
+  align-content: center;
+}
+
+.px-0 {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.pt-20 {
+  padding-top: 5rem;
+}
+
+.pt-40 {
+  padding-top: 10rem;
+}
+
+.text-center {
+  text-align: center;
 }
 
 .font-web {
   font-family: News Cycle, sans-serif;
 }
 
-.font-bold {
-  font-weight: 700;
+.text-9xl {
+  font-size: 8rem;
+  line-height: 1;
 }
