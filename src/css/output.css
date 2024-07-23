@@ -540,8 +540,20 @@ video {
 .col-span-4 {
   grid-column: span 4 / span 4;
 }
+.col-span-2 {
+  grid-column: span 2 / span 2;
+}
 .m-auto {
   margin: auto;
+}
+.m-5 {
+  margin: 1.25rem;
+}
+.m-2 {
+  margin: 0.5rem;
+}
+.m-0 {
+  margin: 0px;
 }
 .my-2 {
   margin-top: 0.5rem;
@@ -585,6 +597,9 @@ video {
 .flex {
   display: flex;
 }
+.table {
+  display: table;
+}
 .grid {
   display: grid;
 }
@@ -609,8 +624,25 @@ video {
 .w-auto {
   width: auto;
 }
+.w-32 {
+  width: 8rem;
+}
+.w-full {
+  width: 100%;
+}
+.w-1\/2 {
+  width: 50%;
+}
+.border-spacing-3 {
+  --tw-border-spacing-x: 0.75rem;
+  --tw-border-spacing-y: 0.75rem;
+  border-spacing: var(--tw-border-spacing-x) var(--tw-border-spacing-y);
+}
 .grid-cols-1 {
   grid-template-columns: repeat(1, minmax(0, 1fr));
+}
+.grid-cols-2 {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 .grid-cols-3 {
   grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -635,15 +667,58 @@ video {
 .rounded-md {
   border-radius: 0.375rem;
 }
+.rounded-sm {
+  border-radius: 0.125rem;
+}
+.rounded-full {
+  border-radius: 9999px;
+}
+.rounded-3xl {
+  border-radius: 1.5rem;
+}
+.rounded-2xl {
+  border-radius: 1rem;
+}
+.rounded-xl {
+  border-radius: 0.75rem;
+}
+.border {
+  border-width: 1px;
+}
+.border-2 {
+  border-width: 2px;
+}
+.border-4 {
+  border-width: 4px;
+}
 .border-s-4 {
   border-inline-start-width: 4px;
 }
 .border-s-8 {
   border-inline-start-width: 8px;
 }
+.border-l-2 {
+  border-left-width: 2px;
+}
+.border-r-2 {
+  border-right-width: 2px;
+}
+.border-r-4 {
+  border-right-width: 4px;
+}
+.border-t-4 {
+  border-top-width: 4px;
+}
+.border-t-2 {
+  border-top-width: 2px;
+}
 .border-gray-300 {
   --tw-border-opacity: 1;
   border-color: rgb(209 213 219 / var(--tw-border-opacity));
+}
+.border-black {
+  --tw-border-opacity: 1;
+  border-color: rgb(0 0 0 / var(--tw-border-opacity));
 }
 .bg-blue-800 {
   --tw-bg-opacity: 1;
@@ -665,11 +740,22 @@ video {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
+.bg-green-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(34 197 94 / var(--tw-bg-opacity));
+}
+.bg-red-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(239 68 68 / var(--tw-bg-opacity));
+}
 .p-1 {
   padding: 0.25rem;
 }
 .p-2 {
   padding: 0.5rem;
+}
+.p-0 {
+  padding: 0px;
 }
 .px-2 {
   padding-left: 0.5rem;
@@ -714,6 +800,10 @@ video {
 .text-sm {
   font-size: 0.875rem;
   line-height: 1.25rem;
+}
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
 }
 .font-bold {
   font-weight: 700;
